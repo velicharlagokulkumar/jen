@@ -11,7 +11,7 @@ user = server.get_whoami()
 version = server.get_version()
 print('Hello %s from Jenkins %s' % (user['fullName'], version))
 
-change1 poojithareddy
+change1 poojithareddy konda
 
 # #Create deployment jobs
 # #create a blnk job
