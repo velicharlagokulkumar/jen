@@ -10,7 +10,7 @@ server = jenkins.Jenkins(host, username=username, password=password) #automation
 user = server.get_whoami()
 version = server.get_version()
 print('Hello %s from Jenkins %s' % (user['fullName'], version))
-hi poojitha reddy changed
+hi poojitha reddy changed successs
 
 # #Create deployment jobs
 # #create a blnk job
