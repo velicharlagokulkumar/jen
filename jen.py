@@ -10,7 +10,7 @@
 #user = server.get_whoami()
 #version = server.get_version()
 #print('Hello %s from Jenkins %s' % (user['fullName'], version))
-a=40
+a=50
 b=2
 c=a+b
 print(c)
