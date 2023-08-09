@@ -1,15 +1,19 @@
-import jenkins
-import json
-import os
-
-host = "http://localhost:8080"
-username = "gokulkumar" #jenkins username here
-password = "11bf02caeb22d4d1bda07d8c31900afbd6" # Jenkins user password / api token here
-server = jenkins.Jenkins(host, username=username, password=password) #automation_user_password
-
-user = server.get_whoami()
-version = server.get_version()
-print('Hello %s from Jenkins %s' % (user['fullName'], version))
+#import jenkins
+#import json
+#import os
+#
+#host = "http://localhost:8080"
+#username = "gokulkumar" #jenkins username here
+#password = "11bf02caeb22d4d1bda07d8c31900afbd6" # Jenkins user password / api token here
+#server = jenkins.Jenkins(host, username=username, password=password) #automation_user_password
+#
+#user = server.get_whoami()
+#version = server.get_version()
+#print('Hello %s from Jenkins %s' % (user['fullName'], version))
+a=1
+b=2
+c=a+b
+print(c)
 # #Create deployment jobs
 # #create a blnk job
 #cdserver.create_job("job1", jenkins.EMPTY_CONFIG_XML)
