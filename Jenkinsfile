@@ -8,6 +8,7 @@ pipeline
             steps 
             {
                 echo 'Im Build'
+                cat jen.py
             }
         }
         
