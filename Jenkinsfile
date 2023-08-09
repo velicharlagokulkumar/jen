@@ -8,7 +8,7 @@ pipeline
             steps 
             {
                 echo 'Im Build'
-                python jen.py
+                bat 'python jen.py'
             }
         }
         
