@@ -8,7 +8,7 @@ pipeline
             steps 
             {
                 echo 'Im Build'
-                cd C:\Users\velic\OneDrive\jen
+                python jen.py
             }
         }
         
