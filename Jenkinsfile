@@ -12,6 +12,7 @@ pipeline
                 bat 'python jen.py'
             }
         }
+      
         
         stage('Test') 
         {
