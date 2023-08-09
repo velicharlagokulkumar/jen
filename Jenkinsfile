@@ -9,7 +9,7 @@ pipeline
             {
                 echo 'Im Build'
                 git branch: 'main', url: 'https://github.com/velicharlagokulkumar/jen.git'
-                echo '%python%'
+                bat 'python jen.py' 
             }
         }
         
