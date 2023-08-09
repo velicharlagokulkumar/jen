@@ -23,7 +23,7 @@ pipeline
         {
             steps 
             {
-                echoo 'Im Deploy'
+                echo 'Im Deploy'
             }
         }
     }
