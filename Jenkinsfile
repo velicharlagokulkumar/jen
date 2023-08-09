@@ -8,7 +8,7 @@ pipeline
             steps 
             {
                 echo 'Im Build'
-                dir
+                cd C:\Users\velic\OneDrive\jen
             }
         }
         
