@@ -8,7 +8,7 @@ pipeline
             steps 
             {
                 echo 'Im Build'
-                type jen.py
+                dir
             }
         }
         
