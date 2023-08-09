@@ -9,11 +9,11 @@ pipeline
             {
                 echo 'Im Build'
                 git branch: 'main', url: 'https://github.com/velicharlagokulkumar/jen.git'
-                bat 'python jen.py'
+                bat 'python3 jen.py'
             }
         }
-      
-        
+
+
         stage('Test') 
         {
             steps 
