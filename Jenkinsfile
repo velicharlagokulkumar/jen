@@ -34,7 +34,7 @@ pipeline
        {
             always 
                 {
-                   bat 'echo "Completed"'
+                   //bat 'echo "Completed"'
                 }
        }
 }
