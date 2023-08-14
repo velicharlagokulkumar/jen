@@ -30,11 +30,5 @@ pipeline
             }
         }
     }
-      post 
-       {
-            always 
-                {
-                   //bat 'echo "Completed"'
-                }
-       }
+
 }
