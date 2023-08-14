@@ -83,4 +83,4 @@ else:
 # server.reconfig_view("Job List", updated_view_config)
 
 #Delete View
-# server.delete_view("Job List")
+# server.delete_view("Job List"
