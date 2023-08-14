@@ -81,6 +81,5 @@ else:
 # Update View
 # updated_view_config = open("jobs_view_updated.xml", mode='r', encoding='utf-8').read()
 # server.reconfig_view("Job List", updated_view_config)
-
-#Delete View
+#Delete View))
 # server.delete_view("Job List"
