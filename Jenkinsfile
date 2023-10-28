@@ -1,4 +1,5 @@
 pipeline {
+  agent any
   stages {
           parallel {
     stage('agfb014') {
