@@ -1,69 +1,105 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('agfb014') {
       parallel {
-        stage('Build') {
+        stage('Setup_f') {
           steps {
-            echo 'Im Build'
+            echo 'setup_f'
           }
         }
 
-        stage('jhgf') {
+        stage('qsys_f') {
           steps {
-            sh 'echo sdasdhh'
+            echo 'qsys_F'
           }
         }
 
-        stage('asdfjhyt') {
+        stage('sof_f') {
           steps {
-            sh 'echo sabi'
+            echo 'sof_f'
+          }
+        }
+
+        stage('build_f') {
+          steps {
+            echo 'build_f'
+          }
+        }
+
+        stage('Deploy_f') {
+          steps {
+            echo 'Deploy_f'
           }
         }
 
       }
     }
 
-    stage('Test') {
+    stage('agib027') {
       parallel {
-        stage('Test') {
+        stage('Setup_i') {
           steps {
-            echo 'Im test'
+            echo 'setup_i'
           }
         }
 
-        stage('qewt') {
+        stage('qsys_i') {
           steps {
-            sh 'echo sasdf'
+            echo 'qsys_i'
           }
         }
 
-        stage('asdfas') {
+        stage('sof_i') {
           steps {
-            sh 'echo asdf'
+            echo 'sof_i'
+          }
+        }
+
+        stage('build_i') {
+          steps {
+            echo 'build_i'
+          }
+        }
+
+        stage('Deploy_i') {
+          steps {
+            echo 'Deploy_i'
           }
         }
 
       }
     }
 
-    stage('Deploy') {
+    stage('hitek') {
       parallel {
-        stage('Deploy') {
+        stage('Setup_h') {
           steps {
-            echo 'Im Deploy'
+            echo 'setup_h'
           }
         }
 
-        stage('asdhhh') {
+        stage('qsys_h') {
           steps {
-            sh 'echo hwllo'
+            echo 'qsys_h'
           }
         }
 
-        stage('stage33') {
+        stage('sof_h') {
           steps {
-            sh 'echo \'hellow\''
+            echo 'sof_h'
+          }
+        }
+
+        stage('build_h') {
+          steps {
+            echo 'build_h'
+          }
+        }
+
+        stage('Deploy_h') {
+          steps {
+            echo 'Deploy_h'
           }
         }
 
