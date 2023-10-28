@@ -1,8 +1,11 @@
 pipeline {
-  agent any
   stages {
+          parallel {
+
     stage('agfb014') {
-      parallel {
+          agent {
+       label 'dockeragent_1'
+       }
         stage('Setup_f') {
           steps {
             echo 'setup_f'
@@ -32,12 +35,12 @@ pipeline {
             echo 'Deploy_f'
           }
         }
-
-      }
     }
 
     stage('agib027') {
-      parallel {
+           agent {
+       label 'dockeragent_2'
+   }
         stage('Setup_i') {
           steps {
             echo 'setup_i'
@@ -67,12 +70,12 @@ pipeline {
             echo 'Deploy_i'
           }
         }
-
-      }
     }
 
     stage('hitek') {
-      parallel {
+           agent {
+       label 'dockeragent_3'
+      }
         stage('Setup_h') {
           steps {
             echo 'setup_h'
@@ -102,9 +105,7 @@ pipeline {
             echo 'Deploy_h'
           }
         }
-
-      }
     }
-
+   }
   }
 }
