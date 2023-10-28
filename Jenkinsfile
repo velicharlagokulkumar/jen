@@ -1,7 +1,6 @@
 pipeline {
   agent any
   stages {
-          parallel {
     stage('agfb014') {
    agent any
         stage('Setup_f') {
@@ -100,6 +99,5 @@ pipeline {
           }
         }
     }
-   }
   }
 }
