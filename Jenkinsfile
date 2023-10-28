@@ -2,7 +2,6 @@ pipeline {
   agent any
   stages {
     stage('agfb014') {
-   agent any
         stage('Setup_f') {
           steps {
             echo 'setup_f'
@@ -35,7 +34,6 @@ pipeline {
     }
 
     stage('agib027') {
-  agent any
         stage('Setup_i') {
           steps {
             echo 'setup_i'
@@ -68,7 +66,6 @@ pipeline {
     }
 
     stage('hitek') {
-  agent any
         stage('Setup_h') {
           steps {
             echo 'setup_h'
