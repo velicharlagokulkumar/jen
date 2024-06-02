@@ -1,0 +1,4 @@
+[submodule "vivado"]
+	path = vivado
+	url = https://github.com/velicharlagokulkumar/vivado.git
+	branch = main
