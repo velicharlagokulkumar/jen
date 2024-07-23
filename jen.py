@@ -7,7 +7,7 @@
 #password = "11bf02caeb22d4d1bda07d8c31900afbd6" # Jenkins user password / api token here
 #server = jenkins.Jenkins(host, username=username, password=password) #automation_user_password
 #
-#user = server.get_whoami()
+#user = server.get_whoami() 
 #version = server.get_version()
 #print('Hello %s from Jenkins %s' % (user['fullName'], version))
 def binary_search(arr, target):
